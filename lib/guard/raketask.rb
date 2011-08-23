@@ -3,11 +3,12 @@ require 'guard/guard'
 require 'rake'
 
 module Guard
-  class Rake < Guard
+  class Raketask < Guard
     include ::Rake::DSL
 
     def initialize(watchers=[], options={})
       @task = options[:task]
+
       super
     end
 
