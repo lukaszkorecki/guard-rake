@@ -34,7 +34,7 @@ Please read the [Guard usage documentation](https://github.com/guard/guard#readm
 Guard::Rake comes with a default template that looks like this:
 
 ```ruby
-guard 'rake', :task => 'doit' do
+guard 'raketask', :task => 'doit' do
   watch(%r{^some_files/.+$})
 end
 ```
