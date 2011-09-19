@@ -1,4 +1,7 @@
 # Guard::Rake
+## Changes in this frok:
+
+For whatever reason `Rake` didn't work as a class name for when creating `Guard` class, so I had to rename it to `Raketask` in order to make it play nicely with Rake's DSL and Guard's name resolution.
 
 Guard::Rake allows you to automatically run a Rake task when files are
 modified.
